@@ -1,0 +1,35 @@
+
+.KONTAINER{
+  display: flex;
+  gap: 1%;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  margin: 40px auto;
+}
+
+.boxes{
+    display: flex;
+    gap: 30px;
+    border-bottom: 2px solid;
+
+}
+
+.box {
+
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.box1{
+   background-color:rgba(116, 116, 235, 0.57);
+   padding: 20px;
+   border-radius: 7px;
+box-shadow: 1px 3px 2px 1px;
+transform: matrix(9);
+transition: 0.4s;
+&:hover{
+    scale: 0.9;
+}
+
+}

@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 100vh;
+    padding: 150px;
+}
+
+.box-item{
+    background-color: white;
+    width: 30%;
+    height: 60%;
+    border: 2px solid rgb(176, 149, 149);
+    padding: 20px;
+    padding-right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center;
+    gap: 20px;
+    padding-top: 70px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 33x;
+}
